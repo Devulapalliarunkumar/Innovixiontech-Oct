@@ -3,33 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Currency Converter Project</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
+    <title>To-Do List Application</title>
+    <link rel="stylesheet" href="cssfile.css">
 </head>
 <body>
-   <div class="container">
-    <h2 class="heading">Currency Converter</h2>
-    <div class="rate">
-        <div class="rate1"> </div> 
-        <div class="rate2"> </div>
-    </div> 
-    <div class="main">
-        <div class="initial"> </div>
-        <div class="options"><select></select></div>
-        <div class="input"><input type="number"> </div>
+<div class="container">
+    <div class="todo-app">
+        <h2>To-Do List <img src="images1/items.png"></h2>
+        <div class="row">
+            <input type="text" id="input-box" placeholder="Add your text">
+            <button onclick="addTask()">Add</button>
+        </div>
+        <ul id="list-container">
+            <!--<li class="checked">Task 1</li>
+                <li>task 2</li>
+                <li>Task 3</li>-->
+        </ul>
     </div>
-    <span class="material-icons swap" style="font-size: 36px ;">
-    swap_horiz
-    </span>
-    <div class="target">
-        <div class="options"><select></select></div>
-        <div class="input"><input disabled type="number"></div>
-    </div>
-    </div>
-    <button class="result">Result</button>
-    </div>
-    <script src="jscriptfile.js"></script>
+</div>    
+<script src="script1.js"></script>
 </body>
 </html>
